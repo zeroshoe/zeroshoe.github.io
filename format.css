@@ -9,7 +9,7 @@ body {
 svg path {
 	fill:#00394f;
 	stroke: #eee;
-	stroke-width: 2;
+	stroke-width: 1;
 }
 svg path:hover {
 	fill: #006284;
