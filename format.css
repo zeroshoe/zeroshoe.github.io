@@ -1,0 +1,35 @@
+/*----- format.css ----- */
+* {
+	margin: 0;
+	padding: 15;
+}
+.header{
+	display: absolute;
+	min-height: 100vh;
+	width: 200%;
+	position: relative;
+	align-items: top;
+	justify-content: space-between;
+}
+nav{
+	display: flex;
+	padding: 1% 1%;
+	justify-content: space-between;
+	align-items: center;
+}
+nav img{
+	width: 200px;
+}
+body {
+	background-color: #838bc5;
+}
+svg path {
+	fill:#ba9bc9;
+	stroke: #eee;
+	stroke-width: 1;
+}
+svg path:hover {
+	fill: #65c8d0;
+	transition: 0.6s;
+	cursor: pointer;
+}
