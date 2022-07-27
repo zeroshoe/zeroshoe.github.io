@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title>Project Website</title>
+	<link rel="stylesheet" href="stile.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,500&display=swap" rel="stylesheet">	
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+	<section class="header">
+		<nav>
+			<a href=index.html><img src="images/icons-01.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-xmark" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="FrankyFoodMap.html"> FOODMAP</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+		
+<div class="text-box">
+	<h1>The Official Franky Website</h1>
+	<p>The beginning of something great.</p>
+</div>
+		
+</section>
+	</body>
+</html>
+	
+
+<script>
+
+	var navLinks = document.getElementById("navLinks");
+	
+	function showMenu(){
+		navLinks.style.right = "0";
+	}
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+	
+</script>
+
